@@ -16,3 +16,7 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+!!              MUST READ                 !!
+Before you try to launch the app make sure to import the javafx jars to your project
+And in the .vscode folder change the path in the vmArgs option to where your javafx jars are located
